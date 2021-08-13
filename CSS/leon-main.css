@@ -476,6 +476,16 @@ body {
 
 /* End footer */
 
+/*General*/
+.motion-rotate-scale {
+  transition: 800ms;
+}
+.motion-rotate-scale:hover {
+    transform: scale(0.9) rotate(3deg);
+    opacity: 50%;
+}
+/**/
+
 /*
 .
 .
