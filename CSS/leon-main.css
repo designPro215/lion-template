@@ -164,6 +164,12 @@ body {
   mix-blend-mode: luminosity;
 }
 
+@media (max-width: 767px) {
+  .landing {
+    height: calc(75vh - 250px);
+  }
+}
+
 .landing .intro-text {
   position: absolute;
   left: 50%;
