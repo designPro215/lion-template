@@ -33,6 +33,7 @@ body {
 .logo-icon {
   color: var(--main-color);
   font-size: 35px;
+  transition: 0.5s;
 }
 
 .logo-icon:hover {
@@ -481,8 +482,8 @@ body {
   transition: 800ms;
 }
 .motion-rotate-scale:hover {
-    transform: scale(0.9) rotate(3deg);
-    opacity: 50%;
+  transform: scale(0.9) rotate(3deg);
+  opacity: 50%;
 }
 /**/
 
